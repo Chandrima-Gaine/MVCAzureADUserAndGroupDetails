@@ -1,0 +1,16 @@
+﻿@{
+    ViewBag.Title = "Home Page";
+}
+
+    <div class="jumbotron">
+        <h2>Reading Users & Groups</h2>
+        <p class="lead">
+            Certain company data within the Microsoft ecosystem is considered highly sensitive. In order to access this data, your application must request the proper permissions from a company administrator.
+            We call these types of permissions admin-restricted. Reading groups is one example of an action that requires an admin-restricted permission.
+        </p>
+        <p class="lead">
+            In this app, firstly it asks the user for sign-in permissions and to read the list of users and the list of groups in their company.
+            in their company's tenant, it requests the admin-restricted permissions from the company's administrator.
+        </p>
+        <p><a href="/Account/SignIn" class="btn btn-primary btn-lg">Sign In &raquo;</a></p>
+    </div>
